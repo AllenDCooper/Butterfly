@@ -70,7 +70,7 @@ class SignupPage extends Component {
             Register
           </button>
         </form>
-        <h1 className="text-center mt-2 error"></h1>
+        <h1 className="text-center mt-2 error">This is a placeholder, gives error if there is no content in header tags.</h1>
       </div>
     );
   }

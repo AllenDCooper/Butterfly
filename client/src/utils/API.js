@@ -2,8 +2,8 @@ import axios from "axios";
 
 export default {
   // Gets all examples
-  getStreams: function() {
-    return axios.get("/api/streams");
+  searchStreams: function() {
+    return axios.get("/api/search");
   }
 };
 
