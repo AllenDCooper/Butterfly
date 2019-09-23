@@ -1,6 +1,5 @@
 import React from "react";
 import { addBtnContainer, addBtn } from "../addBtn";
-
  
 export function StreamCard({children}) {
   return (
@@ -15,14 +14,12 @@ export function StreamCardItem(props) {
   console.log("ID: ", props.id)
   console.log(props.addUserToStream)
   return(
-    <div className="col s12 m6" key={props.id}>
-    <div className="card blue-grey darken-1">
-      <div className="card-content white-text">
-        <span className="card-title">{props.name}</span>
-        <p>{props.date}</p>
+    <div className="card bg-secondary" style={{margin:'10px'}} key={props.id}>
+      <div className="card-body">
+        <h5 className="card-title">{props.name}</h5>
+        <h6 className="card-subtitle mb-2 text-muted">{props.date}</h6>
+        <button className="btn btn-primary" data-streamID={props.id} data-userID={props.userID} onClick={props.saveFunction} href='#'>Subscribe</button>
       </div>
-      <button className="btn-floating waves-effect halfway-fab waves-light red"><i data-value={props.id} className="material-icons"></i></button>
     </div>
-    </div> 
   )
 }
