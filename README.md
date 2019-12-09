@@ -1,6 +1,8 @@
 # Butterfly
 Butterfly is a class communications platform designed to make it easier for students to participate in live class discussions ("Slack for education"). It is a MERN stack, single page application (SPA) built with React-Bootstrap styles that allows users in educational settings to create an account, login, create/subscribe to message streams for classes or groups, and communicate in real time. 
 
+[https://social-butterfly-app.herokuapp.com/](https://social-butterfly-app.herokuapp.com/)
+
 Demo user:
 
 * class@bootcamp.com
